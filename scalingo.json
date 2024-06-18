@@ -1,41 +1,87 @@
 {
-    "name": "𝗭𝗧𝗵𝗼𝗻",
-    "description": "• تنصيب سـورس زدثــون مجاناً علـى منصـة سكـالينجـو • افضـل سـورسـات يـوزربـوت العربيـة",
-    "addons": ["scalingo-postgresql"],
-    "keywords": ["zthon", "ai","telegram"],
-    "repository": "https://github.com/ZThon-fr/bita",
-    "logo": "https://graph.org/file/dc08630c4dc62f59d263b.jpg",
-    "stack": "container",
-    "env": {
-        "STRING_SESSION": {
-            "description": "كـــود جلســة تيــرمكــس - الكـود الكبيـر مـن حـافظـة حسـابـك او مـن بــوت〔 T66bot@ 〕..",
-            "required": true
-        },
-        "TG_BOT_TOKEN": {
-            "description": "تـــوكـــن البـــوت المســاعـد الخــاص بـك - مـن بـوت فـاذر〔 Botfather@ 〕..",
-            "required": true,
-            "value":""
-        },
-        "APP_ID": {
-            "description": "كـود ايبي ايـدي〔 App id 〕اتركـه كمـا هــو",
-            "required": true,
-            "value":"27455984"
-        },
-        "API_HASH": {
-            "description": "كـود ايبي هـاش〔 Api Hash 〕اتركـه كمـا هــو",
-            "required": true,
-            "value":"62d5f68ce2e9189636967120220f5755"
-        },
-        "TZ": {
-            "description": "المنطقـــه الزمنيـــه لا تغيــرهـــا",
-            "required": true,
-            "value": "Asia/Baghdad"
-        },
-        "ENV": {
-            "description": "لا تغيــرهـــا",
-            "required": true,
-            "value": "ANYTHING"
-        }
-
-    }
-  }
+  "name": "Enc",
+  "description": "Encoder",
+  "keywords": ["telegram"],
+  "repository": "https://github.com/ammaralimoder/bita",
+  "logo": "https://graph.org/file/dc08630c4dc62f59d263b.jpg",
+  "stack": "container",
+  "env": "APP_ID": {
+      "description": "كـود ايبي ايـدي〔 App id 〕اتركـه كمـا هــو",
+      "required": true,
+      "value": 17075222
+    },
+    "API_HASH": {
+      "description": "كـود ايبي هـاش〔 Api Hash 〕اتركـه كمـا هــو",
+      "required": true,
+      "value": "d3f57b56ad8463fc96cc969da6586381"
+    },
+    "ENV": {
+      "description": "Hii",
+      "required": true,
+      "value": "ANYTHING"
+    },
+    "OWNER": {
+      "description": "",
+      "required": false,
+      "value": 7103573952
+    },
+    "FFMPEG": {
+      "description": "",
+      "required": false,
+      "value": ""
+    },
+    "TEMP_USERS": {
+      "description": "",
+      "required": false,
+      "value": ""
+    },
+    "THUMBNAIL": {
+      "description": "",
+      "required": false,
+      "value": ""
+    },
+    "CACHE_DL": {
+      "description": "",
+      "required": false,
+      "value": ""
+    },
+    "ENCODER": {
+      "description": "",
+      "required": false,
+      "value": ""
+    },
+    "LOG_CHANNEL": {
+      "description": "",
+      "required": false,
+      "value": ""
+    },
+    "DBNAME": {
+      "description": "",
+      "required": false,
+      "value": ""
+    },
+    "DATABASE_URL": {
+      "description": "",
+      "required": false,
+      "value": ""
+    },
+    "CMD_SUFFIX": {
+      "description": "",
+      "required": false,
+      "value": ""
+    },
+    "DL_STUFF": {
+      "description": "",
+      "required": false,
+      "value": ""
+    },
+    "FCHANNEL": {
+      "description": "",
+      "required": false,
+      "value": ""
+    },
+    "FCHANNEL_STAT": {
+      "description": "",
+      "required": false,
+      "value": ""
+    
